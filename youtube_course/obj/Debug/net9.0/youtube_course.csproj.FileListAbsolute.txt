@@ -1,0 +1,15 @@
+/home/administrator/school/youtube_course/youtube_course/bin/Debug/net9.0/youtube_course
+/home/administrator/school/youtube_course/youtube_course/bin/Debug/net9.0/youtube_course.deps.json
+/home/administrator/school/youtube_course/youtube_course/bin/Debug/net9.0/youtube_course.runtimeconfig.json
+/home/administrator/school/youtube_course/youtube_course/bin/Debug/net9.0/youtube_course.dll
+/home/administrator/school/youtube_course/youtube_course/bin/Debug/net9.0/youtube_course.pdb
+/home/administrator/school/youtube_course/youtube_course/obj/Debug/net9.0/youtube_course.GeneratedMSBuildEditorConfig.editorconfig
+/home/administrator/school/youtube_course/youtube_course/obj/Debug/net9.0/youtube_course.AssemblyInfoInputs.cache
+/home/administrator/school/youtube_course/youtube_course/obj/Debug/net9.0/youtube_course.AssemblyInfo.cs
+/home/administrator/school/youtube_course/youtube_course/obj/Debug/net9.0/youtube_course.csproj.CoreCompileInputs.cache
+/home/administrator/school/youtube_course/youtube_course/obj/Debug/net9.0/youtube_course.sourcelink.json
+/home/administrator/school/youtube_course/youtube_course/obj/Debug/net9.0/youtube_course.dll
+/home/administrator/school/youtube_course/youtube_course/obj/Debug/net9.0/refint/youtube_course.dll
+/home/administrator/school/youtube_course/youtube_course/obj/Debug/net9.0/youtube_course.pdb
+/home/administrator/school/youtube_course/youtube_course/obj/Debug/net9.0/youtube_course.genruntimeconfig.cache
+/home/administrator/school/youtube_course/youtube_course/obj/Debug/net9.0/ref/youtube_course.dll
