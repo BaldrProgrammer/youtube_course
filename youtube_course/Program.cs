@@ -1,10 +1,20 @@
-﻿// do-while это что-то новое, в питоне такого нет, но
-// это довольно изи. это тот же самый while, но сначала выполняется код, а уж потом идёт проверка выражения.
+﻿double first = Convert.ToDouble(Console.ReadLine());
+string? mathoperator = Console.ReadLine();
+double second = Convert.ToDouble(Console.ReadLine());
 
-int i = 0;
-
-do
+if (mathoperator == "+")
 {
-    i++;
-    Console.WriteLine("i = " + i);
-} while (i < 10);
+    Console.WriteLine("\n" + (first + second));
+}
+else if (mathoperator == "-")
+{
+    Console.WriteLine("\n" + (first - second));
+}
+else if (mathoperator == "*")
+{
+    Console.WriteLine("\n" + (first * second));
+}
+else if (mathoperator == "/")
+{
+    Console.WriteLine("\n" + (first / second));
+}
