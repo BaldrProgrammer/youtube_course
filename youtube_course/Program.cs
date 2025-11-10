@@ -1,4 +1,5 @@
-﻿int age = 15;
+﻿string agestr = Console.ReadLine();
+int age = Convert.ToInt32(agestr);
 
 if (age >= 18)
 {
