@@ -1,28 +1,24 @@
-﻿while (true)
-{
-    Console.Write("first - ");
-    double first = Convert.ToDouble(Console.ReadLine());
-    string? mathoperator = Console.ReadLine();
-    Console.Write("second - ");
-    double second = Convert.ToDouble(Console.ReadLine());
+﻿// первое отличие от питона это то что функцию можно вызвать до объявления
+ShowResult("hello world");
 
-    if (mathoperator == "+")
-    {
-        Console.WriteLine("\n" + (first + second));
-    }
-    else if (mathoperator == "-")
-    {
-        Console.WriteLine("\n" + (first - second));
-    }
-    else if (mathoperator == "*")
-    {
-        Console.WriteLine("\n" + (first * second));
-    }
-    else if (mathoperator == "/")
-    {
-        Console.WriteLine("\n" + (first / second));
-    }
-    
-    Console.WriteLine("Нажмите любую кнопку...");
-    Console.ReadKey();
+int suma = Add(432, 48);
+Console.WriteLine(suma);
+
+Console.WriteLine(Factirial(3));
+
+// пример рекурсии
+static int Factirial(int n)
+{
+    if (n == 1) return 1;
+
+    return n * Factirial(n - 1);
+}
+
+// быстрый возврат из функции
+static int Add(int x, int y) => x + y;
+
+// пример обычной функции, возвращающей string
+static string ShowResult(string result)
+{
+    return result;
 }
