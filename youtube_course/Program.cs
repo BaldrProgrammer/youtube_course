@@ -1,8 +1,16 @@
-﻿int age = 17;
+﻿int age = 15;
 
-if(age >= 18)
+if (age >= 18)
 {
     Console.WriteLine("можешь голосовать!");
+}
+else if (age == 16 || age == 17)
+{
+    Console.WriteLine("частично можешь голосовать");
+}
+else if (age >= 12 && age < 18)
+{
+    Console.WriteLine("скоро сможешь голосовать");
 }
 else
 {
