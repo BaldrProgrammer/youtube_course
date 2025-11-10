@@ -1,24 +1,10 @@
-﻿// первое отличие от питона это то что функцию можно вызвать до объявления
-ShowResult("hello world");
+﻿// первый ну и де-факто единственный способ создания массива
+int[] array = { 1, 2, 3 };
 
-int suma = Add(432, 48);
-Console.WriteLine(suma);
+// второй способ. сначала создается пустой массив на определенное кол-во ячеек
+// и добавляется в каждую по значению
+int[] array2 = new int[4];
+array[0] = 12;
+array[1] = 532;
 
-Console.WriteLine(Factirial(3));
-
-// пример рекурсии
-static int Factirial(int n)
-{
-    if (n == 1) return 1;
-
-    return n * Factirial(n - 1);
-}
-
-// быстрый возврат из функции
-static int Add(int x, int y) => x + y;
-
-// пример обычной функции, возвращающей string
-static string ShowResult(string result)
-{
-    return result;
-}
+Console.WriteLine(array[0]);
